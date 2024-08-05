@@ -1,0 +1,27 @@
+body {
+    color: #999;
+}
+
+.hole {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 50%;
+    box-shadow: inset 0px 6px 12.1px 6px #000000;
+}
+
+.field {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.active-hole {
+    background-image: url("../image.png");
+    background-position: center center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
