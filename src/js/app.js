@@ -7,4 +7,4 @@ export function changeHole() {
 }
 
 
-setInterval(changeHole, 2000)
+setInterval(changeHole, 500)
